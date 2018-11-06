@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+
+struct Restaurant {
+    var name: String
+    var type: String
+    var description: String
+    var address: Address
+    var menus: [Menu]
+    var photo: String
+}
