@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6629912191D793005DC7FE /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6629902191D793005DC7FE /* Address.swift */; };
 		4E7B3E1E2191CDE400F13B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B3E1D2191CDE400F13B3D /* AppDelegate.swift */; };
 		4E7B3E202191CDE400F13B3D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B3E1F2191CDE400F13B3D /* FirstViewController.swift */; };
 		4E7B3E222191CDE400F13B3D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B3E212191CDE400F13B3D /* SecondViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E6629902191D793005DC7FE /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		4E7B3E1A2191CDE400F13B3D /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7B3E1D2191CDE400F13B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E7B3E1F2191CDE400F13B3D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		79E61C532191CF45003809D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4E6629902191D793005DC7FE /* Address.swift */,
 				4EB575FA2191D64900705B46 /* Test.swift */,
 				79E61C552191CF8B003809D7 /* Restaurant.swift */,
 				4E7B3E312191D1AD00F13B3D /* Menu.swift */,
@@ -172,6 +175,7 @@
 				4EB575FB2191D64900705B46 /* Test.swift in Sources */,
 				4E7B3E342191D31000F13B3D /* Dish.swift in Sources */,
 				4E7B3E202191CDE400F13B3D /* FirstViewController.swift in Sources */,
+				4E6629912191D793005DC7FE /* Address.swift in Sources */,
 				4E7B3E322191D1AD00F13B3D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
