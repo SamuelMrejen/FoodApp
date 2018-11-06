@@ -13,6 +13,8 @@
 		4E7B3E252191CDE400F13B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B3E232191CDE400F13B3D /* Main.storyboard */; };
 		4E7B3E272191CDE500F13B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B3E262191CDE500F13B3D /* Assets.xcassets */; };
 		4E7B3E2A2191CDE500F13B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B3E282191CDE500F13B3D /* LaunchScreen.storyboard */; };
+		4E7B3E322191D1AD00F13B3D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B3E312191D1AD00F13B3D /* Menu.swift */; };
+		4E7B3E342191D31000F13B3D /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B3E332191D31000F13B3D /* Dish.swift */; };
 		79E61C562191CF8B003809D7 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E61C552191CF8B003809D7 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		4E7B3E262191CDE500F13B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E7B3E292191CDE500F13B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E7B3E2B2191CDE500F13B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7B3E312191D1AD00F13B3D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		4E7B3E332191D31000F13B3D /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		79E61C552191CF8B003809D7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				79E61C552191CF8B003809D7 /* Restaurant.swift */,
+				4E7B3E312191D1AD00F13B3D /* Menu.swift */,
+				4E7B3E332191D31000F13B3D /* Dish.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 				79E61C562191CF8B003809D7 /* Restaurant.swift in Sources */,
 				4E7B3E222191CDE400F13B3D /* SecondViewController.swift in Sources */,
 				4E7B3E1E2191CDE400F13B3D /* AppDelegate.swift in Sources */,
+				4E7B3E342191D31000F13B3D /* Dish.swift in Sources */,
 				4E7B3E202191CDE400F13B3D /* FirstViewController.swift in Sources */,
+				4E7B3E322191D1AD00F13B3D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
