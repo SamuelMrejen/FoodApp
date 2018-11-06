@@ -16,4 +16,13 @@ struct Restaurant {
     var address: Address
     var menus: [Menu]
     var photo: String
+    
+    init(name: String, type: String, description: String, address: Address, menus: [Menu] = [], photo: String) {
+        self.name = name
+        self.type = type
+        self.description = description
+        self.address = address
+        self.photo = photo
+        self.menus = menus
+    }
 }
